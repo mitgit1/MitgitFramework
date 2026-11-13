@@ -1,4 +1,4 @@
-from PyQt5.QtWidgets import (QMainWindow, QWidget, QHBoxLayout, QVBoxLayout, 
+from PyQt5.QtWidgets import (QMainWindow, QWidget, QHBoxLayout, QVBoxLayout,
                              QLabel, QPushButton)
 from PyQt5.QtCore import Qt, QPoint, QRect
 from PyQt5.QtGui import QCursor
@@ -17,11 +17,11 @@ class TitleBar(QWidget):
             border-top-left-radius: {RADIUS['medium']}px;
             border-top-right-radius: {RADIUS['medium']}px;
         """)
-        
+
         layout = QHBoxLayout(self)
         layout.setContentsMargins(15, 0, 5, 0)
         layout.setSpacing(5)
-        
+
         self.title_label = QLabel(title)
         self.title_label.setStyleSheet(
             f"color: {COLORS['on_surface']}; font-size: 13px; "
@@ -29,7 +29,7 @@ class TitleBar(QWidget):
         )
         layout.addWidget(self.title_label)
         layout.addStretch()
-        
+
         btn_style = f"""
             QPushButton {{
                 background: transparent;
@@ -50,22 +50,22 @@ class TitleBar(QWidget):
             }}
             QPushButton:hover {{ background-color: #C42B1C; color: white; }}
         """
-        
+
         self.btn_min = QPushButton("—")
         self.btn_min.setStyleSheet(btn_style)
         self.btn_min.setFixedSize(32, 28)
         self.btn_min.clicked.connect(window.showMinimized)
-        
+
         self.btn_max = QPushButton("□")
         self.btn_max.setStyleSheet(btn_style)
         self.btn_max.setFixedSize(32, 28)
         self.btn_max.clicked.connect(self._toggle_max)
-        
+
         self.btn_close = QPushButton("✕")
         self.btn_close.setStyleSheet(btn_close_style)
         self.btn_close.setFixedSize(32, 28)
         self.btn_close.clicked.connect(window.close)
-        
+
         layout.addWidget(self.btn_min)
         layout.addWidget(self.btn_max)
         layout.addWidget(self.btn_close)
@@ -113,7 +113,9 @@ class FramelessWindow(QMainWindow):
             f"background-color: {COLORS['surface']}; "
             f"border-radius: {RADIUS['medium']}px;"
         )
-        self.setCentralWidget(central)
+        # ФИКС: вызываем базовый метод QMainWindow, потому что
+        # self.setCentralWidget ниже переопределён под контент.
+        QMainWindow.setCentralWidget(self, central)
 
         self._outer_layout = QVBoxLayout(central)
         self._outer_layout.setContentsMargins(0, 0, 0, 0)
