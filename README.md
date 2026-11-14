@@ -14,7 +14,7 @@ The framework handles theme parsing via XML, dynamic widget rendering (including
 [Prerequisites](#prerequisites)
 [Installation](#installation)
 [Quick Start](#quick-start)
- - [1. Configuration](#1.-Configuration (`mitgitfwconfig.yml`)
+ - [1. Configuration](#1.-Configuration)
 [History](#History)
 
 ## Architecture Overview
