@@ -19,7 +19,6 @@ The framework handles theme parsing via XML, dynamic widget rendering (including
   - [3. Application Logic](#3-application-logic-app_mainpy)
 
 [ Configuration Schema | ](#configurationschema)
-
 [History | ](#History)
 
 ## Architecture Overview
