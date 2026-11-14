@@ -9,7 +9,11 @@ The framework handles theme parsing via XML, dynamic widget rendering (including
 
 ## Navigation 
 
+[Header](#MitgitFramework)
+[Architecture Overview](#architecture-overview)
+[Prerequisites](#prerequisites)
 [History](#History)
+
 ## Architecture Overview
 
 The framework is decoupled from the business logic of the application. It consists of the following core modules:
