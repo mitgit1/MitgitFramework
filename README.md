@@ -263,6 +263,6 @@ app.setStyleSheet(get_global_stylesheet())
 
 ## License & Disclaimer
 
-This project is licensed under the MIT License.
+This project is licensed under the GPLv3 License.
 
 **PyQt5 Licensing Notice:** PyQt5 is dual-licensed under the GPLv3 and a commercial license from Riverbank Computing. By using this framework (which relies on PyQt5), your application must also comply with the GPLv3 (meaning your application must be open-source) unless you purchase a commercial PyQt5 license. If you require closed-source distribution, consider porting this framework to PySide6 (LGPL).
