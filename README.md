@@ -290,3 +290,6 @@ This project is licensed under the GPLv3 License.
 
 - 2. ### Engineering form and design boom. 
      Half an hour later, the prototype was ready, but it was truly eye-searing, even though it was functional. I started working on the design because I liked Flet's design. I started googling what it was called: it returned Material Design 3 by Google. I implemented it; but at that moment I realized that everything was bad, since I had no unified API — the checkboxes were simply simulated and hardcoded into a specific class. I created a new folder —  MitgitFramework.
+
+- 3. ###«Present day.»
+     I somehow got it working. I uploaded the files. There’s nothing more to say.
