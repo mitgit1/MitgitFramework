@@ -7,7 +7,7 @@ MitgitFramework is a lightweight, opinionated UI wrapper for PyQt5 designed to i
 
 The framework handles theme parsing via XML, dynamic widget rendering (including custom ripple animations), and provides a configuration-driven entry point using YAML.
 
-> **History:
+> **History:**
 
 
 
