@@ -9,7 +9,7 @@ The framework handles theme parsing via XML, dynamic widget rendering (including
 
 ## Navigation 
 
-[History](## History)
+[History](##History)
 ## Architecture Overview
 
 The framework is decoupled from the business logic of the application. It consists of the following core modules:
