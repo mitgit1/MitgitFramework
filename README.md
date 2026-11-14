@@ -18,7 +18,7 @@ The framework handles theme parsing via XML, dynamic widget rendering (including
   - [2. Entry Point](#2-entry-point-mainpy)
   - [3. Application Logic](#3-application-logic-app_mainpy)
 
-[ Configuration Schema | ](#configurationschema)
+[ Configuration Schema | ](#configuration-schema-mitgitfwconfigyml)
 [History | ](#History)
 
 ## Architecture Overview
