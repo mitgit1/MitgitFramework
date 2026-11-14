@@ -9,7 +9,9 @@ The framework handles theme parsing via XML, dynamic widget rendering (including
 
 ## History:
 
-- 1.
+- 1. Just For Fun
+     One evening, I was sitting at my PC and, to put it mildly, had nothing to do. I was scrolling through old chats and remembered the Minecraft [launcher](https://github.com/looztm/INLauncher). He had abandoned the project about eight months ago because it was written in Flet, which was in beta and was on its way to release; my friend was afraid that a lot would change in the API and decided to shelve the project until better times. I decided to take it on.
+
 
 ## Architecture Overview
 
