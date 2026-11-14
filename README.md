@@ -7,12 +7,9 @@ MitgitFramework is a lightweight, opinionated UI wrapper for PyQt5 designed to i
 
 The framework handles theme parsing via XML, dynamic widget rendering (including custom ripple animations), and provides a configuration-driven entry point using YAML.
 
-## History:
+## Navigation 
 
-- 1. Just For Fun
-     One evening, I was sitting at my PC and, to put it mildly, had nothing to do. I was scrolling through old chats and remembered the Minecraft [launcher](https://github.com/looztm/INLauncher). He had abandoned the project about eight months ago because it was written in Flet, which was in beta and was on its way to release; my friend was afraid that a lot would change in the API and decided to shelve the project until better times. I decided to take it on.
-
-
+[History](## History)
 ## Architecture Overview
 
 The framework is decoupled from the business logic of the application. It consists of the following core modules:
@@ -272,3 +269,8 @@ app.setStyleSheet(get_global_stylesheet())
 This project is licensed under the GPLv3 License.
 
 **PyQt5 Licensing Notice:** PyQt5 is dual-licensed under the GPLv3 and a commercial license from Riverbank Computing. By using this framework (which relies on PyQt5), your application must also comply with the GPLv3 (meaning your application must be open-source) unless you purchase a commercial PyQt5 license. If you require closed-source distribution, consider porting this framework to PySide6 (LGPL).
+
+## History:
+
+- 1. Just For Fun
+     One evening, I was sitting at my PC and, to put it mildly, had nothing to do. I was scrolling through old chats and remembered the Minecraft [launcher](https://github.com/looztm/INLauncher). He had abandoned the project about eight months ago because it was written in Flet, which was in beta and was on its way to release; my friend was afraid that a lot would change in the API and decided to shelve the project until better times. I decided to take it on.
