@@ -9,14 +9,14 @@ The framework handles theme parsing via XML, dynamic widget rendering (including
 
 ## Navigation 
 
-[Header](#MitgitFramework)
-[Architecture Overview](#architecture-overview)
-[Prerequisites](#prerequisites)
-[Installation](#installation)
-[Quick Start](#quick-start)
+[Header | ](#MitgitFramework)
+[Architecture Overview | ](#architecture-overview)
+[Prerequisites | ](#prerequisites)
+[Installation | ](#installation)
+[Quick Start | ](#quick-start)
   - [1. Configuration](#1-configuration-mitgitfwconfigyml)
 
-[History](#History)
+[History | ](#History)
 
 ## Architecture Overview
 
