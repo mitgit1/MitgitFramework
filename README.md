@@ -21,7 +21,7 @@ The framework handles theme parsing via XML, dynamic widget rendering (including
 
 [Configuration Schema | ](#configuration-schema-mitgitfwconfigyml)
 [API Documentation | ](#api-documentation)
-[License & Disclaimer | ](#license-disclaimer)
+[License & Disclaimer | ](#license--disclaimer)
 [History | ](#History)
 
 ## Architecture Overview
